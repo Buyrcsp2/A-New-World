@@ -1,7 +1,7 @@
 /turf/closed/wall/f13/wood/house
 	name = "weathered house wall"
 	desc = "A weathered pre-War house wall."
-	icon = 'icons/fallout/turfs/walls/house.dmi'
+	//icon = 'icons/fallout/turfs/walls/house.dmi'
 	icon_state = "house"
 	icon_type_smooth = "house"
 	hardness = 50
@@ -19,7 +19,7 @@
 /turf/closed/wall/f13/wood/house/broken
 	name = "broken house wall"
 	desc = "A badly damaged pre-war house wall."
-	icon = 'icons/fallout/turfs/walls/house-broken.dmi'
+	//icon = 'icons/fallout/turfs/walls/house-broken.dmi'
 	icon_state = "house-broken"
 	icon_type_smooth = "house-broken"
 	smooth = SMOOTH_TRUE
@@ -41,7 +41,7 @@
 /turf/closed/wall/f13/wood/house/clean
 	name = "house wall"
 	desc = "A newly painted house wall."
-	icon = 'icons/fallout/turfs/walls/house-clean.dmi'
+	//icon = 'icons/fallout/turfs/walls/house-clean.dmi'
 	icon_state = "house-clean"
 	icon_type_smooth = "house-clean"
 	smooth = SMOOTH_TRUE

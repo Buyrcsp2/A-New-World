@@ -241,7 +241,6 @@
 					var/list/walls = list(
 						"Wooden Wall" = image(icon = 'icons/fallout/turfs/walls/wood.dmi', icon_state = "wood0"),
 						"Interior Wall" = image(icon = 'icons/fallout/turfs/walls/interior.dmi', icon_state = "interior0"),
-						"House Wall" = image(icon = 'icons/fallout/turfs/walls/house.dmi', icon_state = "house0")
 					)
 					var/chosen_wall = show_radial_menu(user, src, walls, custom_check = CALLBACK(src, .proc/check_menu, user, I), require_near = TRUE, tooltips = TRUE)
 					if(!check_menu(user, I))
@@ -259,13 +258,6 @@
 							if(do_after(user, 100, target = src) && W.use(3))
 								var/turf/open/T = loc
 								T.ChangeTurf(/turf/closed/wall/f13/wood/interior)
-								qdel(src)
-								return TRUE
-						if("House Wall")
-							to_chat(user, span_notice("You start building a house wall..."))
-							if(do_after(user, 100, target = src) && W.use(3))
-								var/turf/open/T = loc
-								T.ChangeTurf(/turf/closed/wall/f13/wood/house)
 								qdel(src)
 								return TRUE
 				else
