@@ -967,16 +967,16 @@
 	require_user_hands = TRUE
 	/// okay copy from here...
 	help_messages = list(
-		"XU_NAME {gently, softly, warmly} {squeezes, hugs, smushes, clenches} their {pussy, snatch, love hole, love tunnel, cunt} around whatever XT_THEM's got inside them.",
+		"XU_NAME {gently, softly, warmly} {squeezes, hugs, smushes, clenches} their {pussy, snatch, love hole, love tunnel, cunt} around whatever XT_NAME's got inside them.",
 	)
 	disarm_messages = list(
-		"XU_NAME {teasingly, playfully, happily} {squeezes, hugs, smushes, clenches} their {pussy, snatch, love hole, love tunnel, cunt} around whatever XT_THEM's got inside them.",
+		"XU_NAME {teasingly, playfully, happily} {squeezes, hugs, smushes, clenches} their {pussy, snatch, love hole, love tunnel, cunt} around whatever XT_NAME's got inside them.",
 	)
 	grab_messages = list(
-		"XU_NAME {fimrly, possessively, needily} {squeezes, hugs, smushes, clenches} their {pussy, snatch, love hole, love tunnel, cunt} around whatever XT_THEM's got inside them.",
+		"XU_NAME {fimrly, possessively, needily} {squeezes, hugs, smushes, clenches} their {pussy, snatch, love hole, love tunnel, cunt} around whatever XT_NAME's got inside them.",
 	)
 	harm_messages = list(
-		"XU_NAME uses their {pussy, snatch, love hole, love tunnel, cunt} to hold whatever XT_THEM's got inside of them {tightly, wetly, warmly}.",
+		"XU_NAME uses their {pussy, snatch, love hole, love tunnel, cunt} to hold whatever XT_NAME's got inside of them {tightly, wetly, warmly}.",
 	)
 
 	simple_sounds = list(
@@ -999,16 +999,16 @@
 	require_user_hands = TRUE
 	/// okay copy from here...
 	help_messages = list(
-		"XU_NAME {gently, softly, warmly} {squeezes, hugs, smushes, clenches} their {canine, doggy, puppy making, fortune cookie shaped, spadelike} {pussy, snatch, love hole, love tunnel, cunt} around whatever XT_THEM's got inside them.",
+		"XU_NAME {gently, softly, warmly} {squeezes, hugs, smushes, clenches} their {canine, doggy, puppy making, fortune cookie shaped, spadelike} {pussy, snatch, love hole, love tunnel, cunt} around whatever XT_NAME's got inside them.",
 	)
 	disarm_messages = list(
-		"XU_NAME {teasingly, playfully, happily} {squeezes, hugs, smushes, clenches} their {canine, doggy, puppy making, fortune cookie shaped, spadelike} {pussy, snatch, love hole, love tunnel, cunt} around whatever XT_THEM's got inside them.",
+		"XU_NAME {teasingly, playfully, happily} {squeezes, hugs, smushes, clenches} their {canine, doggy, puppy making, fortune cookie shaped, spadelike} {pussy, snatch, love hole, love tunnel, cunt} around whatever XT_NAME's got inside them.",
 	)
 	grab_messages = list(
-		"XU_NAME {fimrly, possessively, needily} {squeezes, hugs, smushes, clenches} their {canine, doggy, puppy making, fortune cookie shaped, spadelike} {pussy, snatch, love hole, love tunnel, cunt} around whatever XT_THEM's got inside them.",
+		"XU_NAME {fimrly, possessively, needily} {squeezes, hugs, smushes, clenches} their {canine, doggy, puppy making, fortune cookie shaped, spadelike} {pussy, snatch, love hole, love tunnel, cunt} around whatever XT_NAME's got inside them.",
 	)
 	harm_messages = list(
-		"XU_NAME uses their {canine, doggy, puppy making, fortune cookie shaped, spadelike} {pussy, snatch, love hole, love tunnel, cunt} to hold whatever XT_THEM's got inside of them {tightly, wetly, warmly}.",
+		"XU_NAME uses their {canine, doggy, puppy making, fortune cookie shaped, spadelike} {pussy, snatch, love hole, love tunnel, cunt} to hold whatever XT_NAME's got inside of them {tightly, wetly, warmly}.",
 	)
 
 	simple_sounds = list(
@@ -1054,4 +1054,69 @@
 	) // frumf, frumf
 	user_lust_mult = 0.8 // set this to how much lust should be given
 	target_lust_mult = 0.8
+	lust_go_to = LUST_USER | LUST_TARGET // and who should get the lust, its a bitfield! for both, it'd be LUST_USER | LUST_TARGET
+
+////////////////////
+//Spank Ass 6A24///
+////////////////////
+/datum/interaction/lewd/partner/giving/butt_drum
+	description = "Partner/Crotch - Drum their ass."
+	require_user_hands = TRUE
+	/// okay copy from here...
+	help_messages = list(
+		"XU_NAME {softly, gently, warmly} {drums, bongos, baps} a beat out on XT_NAME's {donk, butt, booty, rump, ass, backside}, making it {quake, jiggle, bounce, shake}.",
+	)
+	disarm_messages = list(
+		"XU_NAME {playfully, teasingly, jokingly} {drums, bongos, baps} a beat out on XT_NAME's {donk, butt, booty, rump, ass, backside}, making it {quake, jiggle, bounce, shake}.",
+	)
+	grab_messages = list(
+		"XU_NAME {drums, bongos, baps} a beat out on XT_NAME's {donk, butt, booty, rump, ass, backside} {firmly, possessively, punishingly}, making it {quake, jiggle, bounce, shake}.",
+	)
+	harm_messages = list(
+		"XU_NAME {drums, bongos, baps} a beat out on XT_NAME's {donk, butt, booty, rump, ass, backside}, making it {quake, jiggle, bounce, shake} with each {strike, hit, smack, spank, whap}.",
+	)
+
+	simple_sounds = list(
+		"sound/weapons/slap.ogg",
+		'modular_coyote/sound/lewd/SexSlap13.wav',
+		'modular_coyote/sound/lewd/SexSlap14.wav',
+		'modular_coyote/sound/lewd/SexSlap18.wav',
+		'modular_coyote/sound/lewd/SexSlap19.wav',
+		'modular_coyote/sound/lewd/SexSlap20.wav',
+		'modular_coyote/sound/lewd/SexSlap21.wav',
+		'modular_coyote/sound/lewd/SexSlap22.wav',
+		'modular_coyote/sound/lewd/SexSlap23.wav',
+		'modular_coyote/sound/lewd/SexSlap26.wav',
+		'modular_coyote/sound/lewd/SexSlap27.wav',
+		'modular_coyote/sound/lewd/SexSlap34.wav',
+	) // frumf, frumf
+	user_lust_mult = 0.4 // set this to how much lust should be given
+	target_lust_mult = 0.8
+	lust_go_to = LUST_USER | LUST_TARGET // and who should get the lust, its a bitfield! for both, it'd be LUST_USER | LUST_TARGET
+
+///////////////////////
+//	Spread own legs 6A26///
+///////////////////////
+/datum/interaction/lewd/partner/mutual/spreadeagle
+	description = "Partner/Crotch - Spread your legs."
+	require_user_hands = TRUE
+	/// okay copy from here...
+	help_messages = list(
+		"XU_NAME spreads their slowly legs, ready for XT_NAME to do whatever.",
+	)
+	disarm_messages = list(
+		"XU_NAME spreads their legs fully, ready for XT_NAME to do whatever as they put themselves on display.",
+	)
+	grab_messages = list(
+		"XU_NAME spreads their legs and pulls them up into their armpits, ready for XT_NAME to do whatever.",
+	)
+	harm_messages = list(
+		"XU_NAME puts their knees in their armpits. Ready for XT_NAME to dick them down hard.",
+	)
+
+	simple_sounds = list(
+		'sound/f13effects/sunsetsounds/blush.ogg',
+	) // frumf, frumf
+	user_lust_mult = 0.4 // set this to how much lust should be given
+	target_lust_mult = 0.4
 	lust_go_to = LUST_USER | LUST_TARGET // and who should get the lust, its a bitfield! for both, it'd be LUST_USER | LUST_TARGET
